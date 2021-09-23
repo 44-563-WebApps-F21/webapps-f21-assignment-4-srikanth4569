@@ -1,3 +1,7 @@
+body{
+  margin: 20px;
+
+}
 
 .speech,.stage-direction,.name{
   color: black;
@@ -16,11 +20,25 @@
  .duke,.duchess,.thirdCitizen,.firstCitizen,.secondCitizen,.cardinal{
   color: orange;
  }
- .duke:hover,.duchess:hover,.thirdCitizen:hover,.firstCitizen:hover,.secondCitizen:hover,.cardinal{
+ .duke:hover,.duchess:hover,.thirdCitizen:hover,.firstCitizen:hover,.secondCitizen:hover,.cardinal:hover{
  color:blue;
  text-shadow: 1px 10px red;
  border: 1px solid green;
  filter: blur(1px);
+}
+h4{
+  position: relative;
+  padding-left: 5%
+}
+h4::before{
+  content: "";
+  background: url('icon.png');
+  background-size: cover;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: -4px;
 }
 
  td,th
@@ -53,3 +71,8 @@ table {
   margin: 10px 0;
   background-color: lightgray;
 }
+
+ul.navbar-horizontal {list-style-type: none;margin: 15px 0;padding: 5px; width:30%;}
+ul.navbar-horizontal a {color:#000;}
+ul.navbar-horizontal li:hover{  background-color: yellow;color: black;}
+ul.navbar-horizontal li {float: left; background-color: green; padding: 10px; }
