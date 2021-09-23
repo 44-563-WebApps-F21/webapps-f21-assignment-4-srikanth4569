@@ -1,0 +1,55 @@
+
+.speech,.stage-direction,.name{
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.stage-direction{
+  background-color: lightpink;
+}
+    
+.stage-direction:hover{
+ background-color: green;
+ color: white;
+}
+ .duke,.duchess,.thirdCitizen,.firstCitizen,.secondCitizen,.cardinal{
+  color: orange;
+ }
+ .duke:hover,.duchess:hover,.thirdCitizen:hover,.firstCitizen:hover,.secondCitizen:hover,.cardinal{
+ color:blue;
+ text-shadow: 1px 10px red;
+ border: 1px solid green;
+ filter: blur(1px);
+}
+
+ td,th
+{ 
+    border: 1px solid ;
+    text-align: center;
+    width: 50px;
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+th{
+  font-weight: 900;
+  font-size: 14px;
+  color: black;
+  background-color: yellow;
+}
+
+table {
+  width: 50%;
+  height: 150px;
+  border: 2px solid;
+}
+
+.buttonLink{
+  padding: 10px;
+  border: 1px solid;
+  width: 175px;
+  margin: 10px 0;
+  background-color: lightgray;
+}
